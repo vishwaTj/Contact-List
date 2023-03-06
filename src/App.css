@@ -1,8 +1,8 @@
 #Main-container{
   position: relative;
-  top: 150px;
+  top: 10px;
   width: 600px;
-  left: 400px;
+  left: 485px;
 }
 
 #input-container{
@@ -34,8 +34,106 @@ button{
   background-color: red;
 }
 
-header h1{
+#header{
+  margin-bottom: 10px;
+}
+
+h1 {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  font-weight:bolder;
+  font-size: xx-large;
+  color: black;
 }
+
+.contact-card{
+   /* margin-top: 15px; */
+   display: flex;
+   flex-direction: row;
+   /*border-radius: 2px solid black;
+   background-color: azure;
+   height: 30px;
+   padding-left: 6px;
+   padding-right: 6px;
+   border-radius: 10px; */
+}
+
+.contact-info{
+   margin-top: 3px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   border-radius: 2px solid black;
+   background-color: azure;
+   height: 30px;
+   padding-left: 12px;
+   padding-right: 12px;
+   border-radius: 10px;
+   width: 90%;
+}
+
+.delete-btn{
+  margin-top: 3px;
+  width: 10%;
+  background-color: azure;
+  height: 30px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.delete-btn i {
+  cursor:pointer;
+}
+.position{
+  padding-left: 20px;
+  width: 100%;
+  color:crimson;
+}
+
+/* ************** Input ************* */
+
+#box {
+  padding:5px;
+  width:200px;
+  z-index:10;
+  position:relative;  
+}
+#box form {
+ background:#006699;
+ padding:5px;
+ display:block;
+ position:absolute;
+ top:27px;
+}
+#button {
+  width:75px;
+  background:#006699;
+  color:#fff;
+  padding:3px 10px;
+  border:1px solid #006699;  
+  margin-bottom:15px;  
+  cursor:pointer;
+}
+input[type="submit"] {
+  background:none;
+  color:#fff;
+  border:none;
+  text-align:left;
+  cursor:pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ******************************** */

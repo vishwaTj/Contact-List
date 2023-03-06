@@ -5,8 +5,9 @@
 }
 
 body {
-  background-image: radial-gradient(circle, rgb(64, 93, 167), rgb(0, 106, 255), rgb(4, 0, 128));
+  /* background-image: radial-gradient(circle, rgb(64, 93, 167), rgb(0, 106, 255), rgb(4, 0, 128)); */
   color: white;
   font-family: 'Chivo Mono', monospace;
   min-height: 100vh;
+  background-color: blue;
 }
