@@ -1,10 +1,30 @@
 #Main-container{
   position: relative;
   top: 10px;
-  width: 600px;
-  left: 485px;
+  width: 1000px;
+  left: 350px;
 }
 
+ /* ********************  Header ******************** */
+#header{
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#header h1{
+  position: center;
+  font-size: xx-large;
+  font-weight: bold;
+  color: gold;
+}
+
+/* **************************** */
+
+
+/* ****************** Input button and Box *******************/
 #input-container{
   display: flex;
   flex-direction: row;
@@ -34,29 +54,50 @@ button{
   background-color: red;
 }
 
+#box {
+  padding:5px;
+  width:200px;
+  z-index:10;
+  position:relative;  
+}
+
+#box form {
+ background:#006699;
+ padding:5px;
+ display:block;
+ position:absolute;
+ top:27px;
+}
+
+#button {
+  width:75px;
+  background:#006699;
+  color:#fff;
+  padding:3px 10px;
+  border:1px solid #006699;  
+  margin-bottom:15px;  
+  cursor:pointer;
+}
+
+input[type="submit"] {
+  background:none;
+  color:#fff;
+  border:none;
+  text-align:left;
+  cursor:pointer;
+}
+
+ /* ************************* */
+
+/* ------------------ Display cards Contacts -------------------- */
 #header{
   margin-bottom: 10px;
 }
 
-h1 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  font-weight:bolder;
-  font-size: xx-large;
-  color: black;
-}
 
 .contact-card{
-   /* margin-top: 15px; */
    display: flex;
-   flex-direction: row;
-   /*border-radius: 2px solid black;
-   background-color: azure;
-   height: 30px;
-   padding-left: 6px;
-   padding-right: 6px;
-   border-radius: 10px; */
+   flex-direction: row; 
 }
 
 .contact-info{
@@ -70,12 +111,12 @@ h1 {
    padding-left: 12px;
    padding-right: 12px;
    border-radius: 10px;
-   width: 90%;
+   width: 96%;
 }
 
 .delete-btn{
   margin-top: 3px;
-  width: 10%;
+  width: 4%;
   background-color: azure;
   height: 30px;
   border-radius: 30px;
@@ -89,51 +130,16 @@ h1 {
   cursor:pointer;
 }
 .position{
-  padding-left: 20px;
+  padding-left: 12px;
   width: 100%;
   color:crimson;
 }
 
-/* ************** Input ************* */
 
-#box {
-  padding:5px;
-  width:200px;
-  z-index:10;
-  position:relative;  
-}
-#box form {
- background:#006699;
- padding:5px;
- display:block;
- position:absolute;
- top:27px;
-}
-#button {
-  width:75px;
-  background:#006699;
-  color:#fff;
-  padding:3px 10px;
-  border:1px solid #006699;  
-  margin-bottom:15px;  
-  cursor:pointer;
-}
-input[type="submit"] {
-  background:none;
-  color:#fff;
-  border:none;
-  text-align:left;
-  cursor:pointer;
+h3,p{
+  color: black;
+  font-size: large;
 }
 
 
-
-
-
-
-
-
-
-
-
-/* ******************************** */
+/* ********************************** */

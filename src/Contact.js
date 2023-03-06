@@ -1,9 +1,8 @@
-import React from 'react'
+import React from 'react';
 
 const Contact = ({contact,index,EditContact,DeleteContact}) => {
   return (
       <div className='contact-card' key={index}>
-        {console.log(index)}
         <div className='contact-info'> 
             <h3>{contact.name}</h3>
             <p>{contact.email}</p>
