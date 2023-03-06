@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/vishwaTj/Contact-List/static/css/main.adc7f40e.css",
+    "main.js": "/vishwaTj/Contact-List/static/js/main.84703809.js",
+    "index.html": "/vishwaTj/Contact-List/index.html",
+    "main.adc7f40e.css.map": "/vishwaTj/Contact-List/static/css/main.adc7f40e.css.map",
+    "main.84703809.js.map": "/vishwaTj/Contact-List/static/js/main.84703809.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.adc7f40e.css",
+    "static/js/main.84703809.js"
+  ]
+}
