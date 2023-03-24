@@ -41,7 +41,7 @@ function App() {
     SetShow(!Show);
   }
 
-  // ---------------------  functions to control the we page ---------------------------
+  // ---------------------  functions to control the web page ---------------------------
 
   // function to add a new contact
   const AddContact = (e) =>{
